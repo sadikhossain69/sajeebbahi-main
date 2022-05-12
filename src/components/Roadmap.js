@@ -24,10 +24,16 @@ const Roadmap = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{ width: '58.5%', }} className=' border mt-3 mx-auto h-64'>
-                    <div className=' p-5'>
-                        <p className=' text-slate-400 text-2xl'>Q3</p>
-                        <p className=' font-bold text-4xl'>COMMUNITY</p>
+                <div style={{ width: '58.5%', }} className='hover:bg-slate-600 hover:duration-300 border mt-3 mx-auto h-64'>
+                    <div className=' space-y-24 p-5'>
+                        <div>
+                            <p className=' text-slate-400 text-2xl'>Q3</p>
+                            <p className=' font-bold text-4xl'>COMMUNITY</p>
+                        </div>
+                        <div className=' flex items-center space-x-3'>
+                            <BiLockAlt />
+                            <p className=' text-xl'>LOCKED CONTENT</p>
+                        </div>
                     </div>
                 </div>
                 <div className=' mt-3 flex justify-center space-x-5'>
