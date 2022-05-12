@@ -1,4 +1,5 @@
 import './App.css';
+import FAQ from './components/FAQ';
 import Fashion from './components/Fashion';
 import Feature from './components/Feature';
 import HeroPart from './components/HeroPart';
@@ -9,6 +10,7 @@ import Roadmap from './components/Roadmap';
 import SocialIcons from './components/SocialIcons';
 import Started from './components/Started';
 import bgBanner from './Images/bg-banner.jpg'
+import 'tw-elements';
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
       <SocialIcons/>
       <Fashion/>
       <Roadmap/>
+      <FAQ/>
       <OurVision />
       <Feature />
       <Join />
