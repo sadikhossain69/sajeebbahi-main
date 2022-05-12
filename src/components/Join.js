@@ -6,11 +6,11 @@ import { faBaby } from '@fortawesome/free-solid-svg-icons'
 
 const Join = () => {
     return (
-        <div style={{ backgroundColor: "#5A5B5C" }} class="pb-32">
-            <div class="flex border border-dashed border-2 w-1/2 mx-auto justify-around py-32">
+        <div style={{ backgroundColor: "#5A5B5C" }} className="pb-32">
+            <div className="flex border border-dashed border-2 w-1/2 mx-auto justify-around py-32">
                 <div>
-                    <p class="text-center text-6xl">JOIN OUR <br /> DISCORD</p>
-                    <a class="flex justify-center text-3xl mt-4 border py-2 px-2 mr-12" href="#">DISCORD &nbsp;  <FontAwesomeIcon icon={faBaby} /></a>
+                    <p className="text-center text-6xl">JOIN OUR <br /> DISCORD</p>
+                    <a className="flex justify-center text-3xl mt-4 border py-2 px-2 mr-12" href="#">DISCORD &nbsp;  <FontAwesomeIcon icon={faBaby} /></a>
                 </div>
                 <div style={{ backgroundImage: `url(${""})`, backgroundPosition: 'top left', backgroundRepeat: 'no-repeat'}}>
                     
