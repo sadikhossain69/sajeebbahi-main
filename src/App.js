@@ -5,6 +5,7 @@ import HeroPart from './components/HeroPart';
 import Join from './components/Join';
 import Navbar from './components/Navbar';
 import OurVision from './components/OurVision';
+import Roadmap from './components/Roadmap';
 import SocialIcons from './components/SocialIcons';
 import Started from './components/Started';
 import bgBanner from './Images/bg-banner.jpg'
@@ -16,6 +17,7 @@ function App() {
       <HeroPart/>
       <SocialIcons/>
       <Fashion/>
+      <Roadmap/>
       <OurVision />
       <Feature />
       <Join />
