@@ -3,7 +3,7 @@ import React from 'react';
 const FAQ = () => {
     return (
         <div style={{ backgroundColor: "#5A5B5C" }}>
-            <div style={{ width: '50%', margin: '0 auto' }} className=" text-center" class="accordion" id="accordionExample">
+            <div style={{ width: '50%', margin: '0 auto',  }} className=" text-center" class="accordion" id="accordionExample">
                 <div className="accordion-item bg-[#5A5B5C] border border-gray-200">
                     <h2 className="accordion-header mb-0" id="headingOne">
                         <button className="
@@ -14,7 +14,7 @@ const FAQ = () => {
         w-full
         py-4
         px-5
-        text-base text-gray-800 text-left
+        text-white text-left
         bg-[#5A5B5C]
         border-0
         rounded-none
@@ -25,7 +25,7 @@ const FAQ = () => {
                             Accordion Item #1
                         </button>
                     </h2>
-                    <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
                         <div className="accordion-body py-4 px-5">
                             YOU WILL BE ABLE TO MINT AN INTERNET MADE NFT ON WWW.INTERNETMADENFT.COM WEBSITE. WHEN YOU CLICK THE MINT BUTTON YOU WILL BE REDIRECTED TO OUR MINTING SUBPAGE. IF YOU HAVE OUR WHITELIST ROLE, YOU WILL NEED TO WHITELIST YOUR ETHEREUM ERC20 WALLET (SUCH AS METAMASK) ADDRESS, ONLY THEN YOU ARE ABLE TO PARTICIPATE IN THE PRESALE. PUBLIC SALE WILL BE OPEN TO EVERYONE.
@@ -45,7 +45,7 @@ const FAQ = () => {
         w-full
         py-4
         px-5
-        text-base text-gray-800 text-left
+        text-white text-left
         bg-[#5A5B5C]
         border-0
         rounded-none
@@ -79,7 +79,7 @@ const FAQ = () => {
         w-full
         py-4
         px-5
-        text-base text-gray-800 text-left
+        text-white text-left
         bg-[#5A5B5C]
         border-0
         rounded-none
