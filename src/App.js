@@ -1,4 +1,5 @@
 import './App.css';
+import Fashion from './components/Fashion';
 import Feature from './components/Feature';
 import HeroPart from './components/HeroPart';
 import Join from './components/Join';
@@ -14,6 +15,7 @@ function App() {
       <Navbar/>
       <HeroPart/>
       <SocialIcons/>
+      <Fashion/>
       <OurVision />
       <Feature />
       <Join />
